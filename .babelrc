@@ -1,0 +1,13 @@
+{
+    "presets" : [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+
+    "plugins" : [
+        // Propriétés dans une classe 
+        "@babel/plugin-proposal-class-properties",
+        // prend un objet et le vide ... (le spread / rest se fait sur un objet)
+        "@babel/plugin-proposal-object-rest-spread"
+    ]
+}
